@@ -10,8 +10,8 @@ module Wunderlist
 
     def headers
       {
-        "X-Access-Token" => ENV["WUNDERLIST_ACCESS_TOKEN"]),
-        "X-Client-ID" => ENV["WUNDERLIST_CLIENT_ID"]),
+        "X-Access-Token" => ENV["WUNDERLIST_ACCESS_TOKEN"],
+        "X-Client-ID" => ENV["WUNDERLIST_CLIENT_ID"],
       }
     end
 
