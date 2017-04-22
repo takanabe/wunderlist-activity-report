@@ -53,3 +53,4 @@ build-iPhoneSimulator/
 .rspec_status
 
 .env
+/.vscode/
