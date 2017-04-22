@@ -1,8 +1,5 @@
 # Wunderlist::Activity::Report
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/wunderlist/activity/report`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A ruby gem to export your wunderlist activities
 
 ## Installation
 
@@ -21,8 +18,14 @@ Or install it yourself as:
     $ gem install wunderlist-activity-report
 
 ## Usage
+Following environment variables are necessary to fetch Wunderlist data.
 
-TODO: Write usage instructions here
+```
+> cat .env
+WUNDERLIST_ACCESS_TOKEN="wunderlist_access_token"
+WUNDERLIST_CLIENT_ID="wunderlist_client_id"
+TARGET_FOLDER="foldername"
+```
 
 ## Development
 
@@ -33,9 +36,3 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/wunderlist-activity-report.
-
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
